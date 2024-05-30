@@ -10,14 +10,46 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="font-Raleway">
+<body class="min-h-screen font-Raleway bg-Image-Mobile bg-no-repeat bg-cover flex  items-center justify-center mx-4">
 
-  You’ve used 815 GB of your storage
+  <main class="w-full max-w-md flex flex-col">
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
+    <section class="py-12 pl-12 pr-28 bg-Color-Dark-Blue rounded-xl rounded-tr-[6rem] mb-5">
+
+      <div class="mb-10">
+        <img src="images/logo.svg" width="135" height="40" alt="logo">
+      </div>
+
+      <ul class="flex justify-between gap-4">
+        <li class="flex justify-center items-center bg-Color-Very-Dark-Blue"><img class="icon" src="images/icon-document.svg" width="20" height="24" alt="icon-document"></li>
+        <li class="flex justify-center items-center bg-Color-Very-Dark-Blue"><img class="icon"src="images/icon-folder.svg" width="24" height="20" alt="icon-folder"></li>
+        <li class="flex justify-center items-center bg-Color-Very-Dark-Blue"><img class="icon"src="images/icon-upload.svg" width="24" height="16" alt="icon-upload"></li>
+      <ul>
+
+    </section>
+    
+    <section class="text-center text-sm p-10 bg-Color-Dark-Blue rounded-xl relative">
+      <div class="flex flex-col">
+        <h2 class="text-Color-Pale-Blue tracking-[1px]">You’ve used <span class="text-Color-Grayish-Blue font-bold">815 GB</span> of your storage</h2>
+
+        <div class="my-2 p-1 bg-Color-Very-Dark-Blue rounded-md">
+          <div class="max-w-[70%] p-[0.2rem] h-4 bg-Gradient rounded-md flex justify-end items-center">
+            <div class="w-3 h-3 -mr-[0.1rem] bg-white rounded-full"></div>
+          </div>
+        </div>
+
+        <div class="flex justify-between text-Color-Pale-Blue font-bold">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center bg-white w-36 h-16 absolute inset-0 rounded-xl top-[135%] -translate-y-[135%] left-1/2 -translate-x-1/2 z-10">
+        <h2 class="text-center text-3xl font-bold">185 <span class="tracking-[1px] text-base text-Color-Grayish-Blue uppercase">GB Left</span></h2>
+      </div>
+    </section>
+
+  </main>
   
 </body>
 </html>

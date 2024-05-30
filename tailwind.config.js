@@ -12,8 +12,9 @@ module.exports = {
       fontFamily: {
         Raleway: 'Raleway',
       },
-      gradientColorStops: {
-        Gradient: 'hsl(6, 100%, 80%) to hsl(335, 100%, 65%)',
+      backgroundImage: {
+        'Image-Mobile': "url('/images/bg-mobile.png')",
+        'Gradient': "linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%))",
       }
     },
   },
